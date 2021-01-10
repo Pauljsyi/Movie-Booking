@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Hello from './Hello'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  < Hello greeting={'Hello' + 'React Ninja'} yell={'This is Sparta!'}/>,
+  < App greeting={'Hello' + 'React Ninja'} yell={'This is Sparta!'}/>,
   document.getElementById('root')
 );
 
