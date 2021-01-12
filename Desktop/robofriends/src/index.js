@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  < App greeting={'Hello' + 'React Ninja'} yell={'This is Sparta!'}/>,
+  < App greeting={'Hello' + 'React Ninja'} yell={'This is Sparta!'} alert={'Bee doh Bee doh'}/>,
   document.getElementById('root')
 );
 

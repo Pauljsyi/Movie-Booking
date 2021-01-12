@@ -7,7 +7,8 @@ class App extends React.Component {
     <div>
       
       <h1>{this.props.greeting}</h1>
-        <h2>{this.props.yell}</h2>
+        <h3>Ninja says: {this.props.yell}</h3>
+        <h3>Minion says: {this.props.alert}</h3>
       
   </div>
     )
