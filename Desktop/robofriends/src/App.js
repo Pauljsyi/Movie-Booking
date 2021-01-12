@@ -4,7 +4,7 @@ import './App.css';
 class App extends React.Component {
   render() {
     return     (
-    <div>
+    <div className="App">
       
       <h1>{this.props.greeting}</h1>
         <h3>Ninja says: {this.props.yell}</h3>
