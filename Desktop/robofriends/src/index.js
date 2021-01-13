@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Card from './Card';
+
+
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  < App greeting={'Hello' + 'React Ninja'} yell={'This is Sparta!'} alert={'Bee doh Bee doh'}/>,
+  < Card/>,
   document.getElementById('root')
 );
 
